@@ -31,7 +31,7 @@ header {
 header h1 {
     padding-top: 50px;
     font-family: var(--fonte1);
-    font-size: 3.5em;
+    font-size: 7vw;
     text-transform: uppercase;
 }
 
@@ -41,23 +41,22 @@ header p {
 }
 
 header a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #ffffff;
     font-weight: bolder;
 }
 
 header a:hover {
-    text-decoration: underline;
     color: #cecaca;
 }
 
 .sessoes {
-    padding: 60px 30px;
+    padding: 40px;
 }
 
 .sessoes p {
-    line-height: 35px;
     font-family: var(--fonte2);
+    font-size: 2vw;
 }
 
 #img1 {
@@ -65,7 +64,6 @@ header a:hover {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    height: 350px;
 }
 
 #img2 {
@@ -73,20 +71,19 @@ header a:hover {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    height: 350px;
 }
 
-.cimg p {
-    display: inline-block;
+.sessoes p {
     background-color: #0000006e;
+    max-width: 28vw;
     color: #ffffff;
     border-radius: 10px;
-    max-width: 300px;
-    min-width: 200px;
     padding: 20px;
 }
 
 .simg p {
+    background-color: transparent;
+    color: #000000;
     padding: 20px;
 }
 
@@ -98,12 +95,11 @@ footer {
 }
 
 footer a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #ffffff;
     font-weight: bolder;
 }
 
 footer a:hover {
-    text-decoration: underline;
     color: #cecaca;
 }
