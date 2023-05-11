@@ -65,6 +65,7 @@ header a:hover {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    height: 350px;
 }
 
 #img2 {
@@ -72,6 +73,7 @@ header a:hover {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    height: 350px;
 }
 
 .cimg p {
