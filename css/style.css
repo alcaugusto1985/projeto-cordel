@@ -62,21 +62,20 @@ header a:hover {
 
 #img1 {
     background-image: url('../imagens/background001.jpg');
-    background-position: center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    height: 350px;
 }
 
 #img2 {
     background-image: url('../imagens/background002.jpg');
-    background-position: center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    height: 350px;
 }
 
 .cimg p {
+    display: inline-block;
     background-color: #0000006e;
     color: #ffffff;
     border-radius: 10px;
